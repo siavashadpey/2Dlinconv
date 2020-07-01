@@ -12,7 +12,7 @@ Clone the repository:
   git clone https://github.com/siavashadpey/2Dlinconv.git
 ```
 
-Open MATLAB and cd into the directory you just cloned and run the setup file on MATLAB's Command Window:
+Open MATLAB and `cd` into the directory you just cloned and run the setup file on MATLAB's Command Window:
 ```
   setup
 ```

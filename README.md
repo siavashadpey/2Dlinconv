@@ -4,7 +4,7 @@ A 2D linear convection solver using Summation-By-Parts (SBP) discretization meth
 
 SBP methods are very similar to Discontinuous Galerkin (DG) finite-element methods. This solver uses upwind numerical fluxes to add dissipation at element interfaces and the fourth-order Runge-Kutta (RK4) method as its time-marching scheme.
 
-For the grid generation, DistMesh is used.
+For the grid generation, [DistMesh](http://persson.berkeley.edu/distmesh/) is used.
 
 ## Installation
 Clone the repository:

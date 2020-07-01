@@ -13,7 +13,7 @@ Clone the repository:
 ```
 
 Open MATLAB and `cd` into the directory you just cloned and run the setup file on MATLAB's Command Window:
-```
+```console
   setup
 ```
 

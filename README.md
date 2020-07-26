@@ -9,18 +9,18 @@ For the grid generation, [DistMesh](http://persson.berkeley.edu/distmesh/) is us
 ## Installation
 Clone the repository:
 ```console
-  git clone https://github.com/siavashadpey/2Dlinconv.git
+git clone https://github.com/siavashadpey/2Dlinconv.git
 ```
 
 Open MATLAB and `cd` into the directory you just cloned and run the setup file on MATLAB's Command Window:
 ```console
-  setup
+setup
 ```
 
 ## Example
 You can run a pre-existing test case via the Command Window:
 ```console
-  lin_conv_2D
+lin_conv_2D
 ```
 which simulates a 2D sinusoidal wave convecting at a constant speed of 0.5 in each direction on a unit square until a final time of T=0.5. The mesh spacing used is 1/12, the time-step is 0.005, and the SBP operator is an Omega operator of degree 3.
 
@@ -35,5 +35,5 @@ Via this driver file's arguments, you can modify the type and the degree of the 
 
 Finally, you can also run convergence studies to test the solver by executing:
 ```console
-	conv_study
+conv_study
 ```
